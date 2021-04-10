@@ -17,3 +17,9 @@ https://www.youtube.com/watch?v=2G_mWfG0DZE
 - Executar as migrations:<br>
   `npx sequeliza-cli db:migrate`
 
+- Excutando o jest:<br>
+  `npx jest --init`
+
+- Executando testes:<br>
+  `npm test`
+  

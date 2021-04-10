@@ -1,4 +1,11 @@
 const routes = require("express").Router();
+const SessionController = require('./app/controllers/SessionController');
+
+routes.post('/sessions', SessionController.store);
+
+module.exports = routes;
+
+
 // const { User } = require('./app/models');
 
 // User.create({ 
@@ -6,5 +13,3 @@ const routes = require("express").Router();
 //   email: 'otavio@otavio.com.br', 
 //   password_hash: '123dasilva4' 
 // });
-
-module.exports = routes;
