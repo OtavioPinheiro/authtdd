@@ -4,7 +4,9 @@
   "description": "exemplo de tdd",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__"
   },
   "author": "Otavio Pinheiro",
   "license": "ISC",
@@ -13,5 +15,8 @@
     "pg": "^8.5.1",
     "sequelize": "^6.6.2",
     "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

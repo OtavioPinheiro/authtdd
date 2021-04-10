@@ -4,3 +4,16 @@ O presente código desse projeto foi baseado no código desenvolvido pela Rocket
 
 ## Link
 https://www.youtube.com/watch?v=2G_mWfG0DZE
+
+
+## Comandos úteis usados durante o desenvolvimento
+### Utilizando o sequelize por meio do npm.
+- Comando init:<br>
+`npx sequelize-cli init`
+
+- Comando para gerar migrations:<br>
+  `npx sequelize-cli migration:create --name=create-users`
+
+- Executar as migrations:<br>
+  `npx sequeliza-cli db:migrate`
+
